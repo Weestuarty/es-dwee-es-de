@@ -533,6 +533,7 @@
             <maxSize>0.39 0.19</maxSize>
             <origin>0.5 0.5</origin>
             <imageType>marquee</imageType>
+            <interpolation>linear</interpolation>
             <zIndex>7</zIndex>
         </image>
         <image name="marquee1">

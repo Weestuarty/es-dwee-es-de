@@ -19,6 +19,7 @@
             <backColor>108FBA</backColor>
             <gridColor>CCCCCC</gridColor>
             <textColor>000000</textColor>
+            <badgeColor>cccccc</badgeColor>
             <textselectColor>000000</textselectColor>
             <baseColor>FFFFFF</baseColor>
         </variables>
@@ -29,6 +30,7 @@
             <backColor>A67c00</backColor>
             <gridColor>444444</gridColor>
             <textColor>d4af37</textColor>
+            <badgeColor>a67c00</badgeColor>
             <textselectColor>000000</textselectColor>
             <baseColor>333333</baseColor>
         </variables>
@@ -39,6 +41,7 @@
             <backColor>950217</backColor>
             <gridColor>450c1c</gridColor>
             <textColor>BE013C</textColor>
+            <badgeColor>be013c</badgeColor>
             <textselectColor>000000</textselectColor>
             <baseColor>1B040b</baseColor>
         </variables>
@@ -487,6 +490,7 @@
             <slots>completed, controller,favorite, kidgame, manual</slots>
             <controllerSize>0.8</controllerSize>
             <controllerPos>0.5 0.425</controllerPos>
+            <badgeIconColor>${badgeColor}</badgeIconColor>
             <customBadgeIcon badge="completed">./assets/badges/completed.svg</customBadgeIcon>
             <customBadgeIcon badge="favorite">./assets/badges/favorite.svg</customBadgeIcon>
             <customBadgeIcon badge="kidgame">./assets/badges/kidgame.svg</customBadgeIcon>

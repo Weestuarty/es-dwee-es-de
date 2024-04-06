@@ -1,0 +1,83 @@
+<theme>
+    <variables>
+       
+    </variables>
+
+    <view name="system">
+        <image name="mlcircle">
+            <pos>0.04 0.75</pos>
+            <size>0.15 0.2</size>
+        </image> 
+        <image name="mlcirclefill">
+            <pos>0.04 0.75</pos>
+            <size>0.15 0.2</size>
+        </image> 
+        <image name="mlcircle1">
+            <pos>0.041 0.751</pos>
+            <size>0.15 0.2</size>
+        </image>
+        <image name="mrcircle">
+            <pos>0.944 0.75</pos>
+            <size>0.15 0.2</size>
+        </image> 
+        <image name="mrcirclefill">
+            <pos>0.944 0.75</pos>
+            <size>0.15 0.2</size>
+        </image> 
+        <image name="mrcircle1">
+            <pos>0.94475 0.751</pos>
+            <size>0.15 0.2</size>
+        </image>
+
+        <image name="es">
+            <pos>0.115 0.85</pos>
+            <maxSize>0.125 0.18</maxSize>
+        </image> 
+        <image name="es1">
+            <pos>0.116 0.851</pos>
+            <maxSize>0.125 0.18</maxSize>
+        </image>
+        <text name="gamecount">
+            <pos>0.8675 0.78</pos>
+            <size>0.08 0.075</size>
+        </text>
+        <text name="gamecountlbl">
+            <pos>0.8675 0.84</pos>
+            <size>0.12 0.075</size>
+        </text>
+        <text name="gamecount1">
+            <pos>0.8685 0.781</pos>
+            <size>0.08 0.075</size>
+        </text>
+        <text name="gamecountlbl1">
+            <pos>0.8685 0.841</pos>
+            <size>0.12 0.075</size>
+        </text>
+    </view>
+
+    <view name="gamelist">
+        <helpsystem name="help">
+            <fontSize>0.03</fontSize>
+        </helpsystem>
+        <badges name="badges">
+            <pos>0.76 0.6875</pos>
+            </badges>
+        <image name="badgebox">
+            <pos>0.76 0.6575</pos>
+            <size>0.43 0.12</size>
+        </image>
+        <image name="badgeboxtop">
+            <pos>0.76 0.6575</pos>
+            <size>0.43 0.12</size>
+        </image>
+        <image name="badgeboxglow">
+            <pos>0.76 0.6575</pos>
+            <size>0.43 0.125</size>
+        </image>
+         <image name="badgeboxglow1">
+            <pos>0.761 0.66</pos>
+            <size>0.43 0.125</size>
+        </image>
+    </view>
+        
+</theme>

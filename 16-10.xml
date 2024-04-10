@@ -32,6 +32,14 @@
     </view>
 
     <view name="gamelist">
+        <text name="source">
+            <pos>0.74 0.325</pos>
+            <size>0.475 0.09</size>
+        </text>
+            <text name="source2">
+                <pos>-0.21 0.325</pos>
+                <size>0.475 0.09</size>
+            </text>
         <textlist name="gamelist_textlist">
             <selectorHorizontalOffset>-0.006</selectorHorizontalOffset>
         </textlist>

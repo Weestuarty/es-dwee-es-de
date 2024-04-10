@@ -1,5 +1,8 @@
 <theme>
 
+    <include>./system/metadata/_default.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
+    <include>./system/metadata-custom/${system.theme}.xml</include>
     <aspectRatio name="4:3">
         <include>./4-3.xml</include>
     </aspectRatio>
@@ -53,6 +56,8 @@
         <gameimage>0.04</gameimage>
         <gamecount>0.04</gamecount>
         <helpfont>0.03</helpfont>
+        <gametitle>0.06</gametitle>
+        <sourcefont>0.04</sourcefont>
         <wiifontb>./assets/fonts/contb.ttf</wiifontb>
         <wiifontl>./assets/fonts/contl.ttf</wiifontl>
         <wiifontm>./assets/fonts/contm.ttf</wiifontm>
@@ -64,6 +69,8 @@
         <gameimage>0.05</gameimage>
         <helpfont>0.04</helpfont>
         <gamecount>0.0475</gamecount>
+        <gametitle>0.07</gametitle>
+        <sourcefont>0.045</sourcefont>
         <wiifontb>./assets/fonts/contb.ttf</wiifontb>
         <wiifontl>./assets/fonts/contl.ttf</wiifontl>
         <wiifontm>./assets/fonts/contm.ttf</wiifontm>
@@ -236,6 +243,36 @@
             <horizontalAlignment>center</horizontalAlignment>
             <color>${backColor}</color>
             <zIndex>8</zIndex>
+        </text>
+        <text name="source">
+            <text>${systemName}</text>
+            <fontSize>${gametitle}</fontSize>
+            <rotation>0</rotation>
+            <pos>0.5 0.9</pos>
+            <size>0.7 0.09</size>
+            <origin>0.5 0.5</origin>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <letterCase>capitalize</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        <text name="sourceyear">
+            <text>${systemReleaseYear}</text>
+            <fontSize>0.1</fontSize>
+            <rotation>0</rotation>
+            <pos>0.5 0.775</pos>
+            <size>0.7 0.09</size>
+            <origin>0.5 0.5</origin>
+            <fontPath>./assets/fonts/digital.ttf</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <letterCase>capitalize</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}88</color>
+            <zIndex>9</zIndex>
         </text>
     </view>
     <view name="gamelist">
@@ -548,19 +585,35 @@
             <color>${textColor}</color>
             <zIndex>6</zIndex>
         </image>
-        <!--<text name="dev">
-            <metadata>developer</metadata>
-            <fontSize>${gameimage}</fontSize>
-            <pos>0.175 0.765</pos>
-            <size>0.225 0.09</size>
+        <text name="source">
+            <fontSize>${sourcefont}</fontSize>
+            <rotation>90</rotation>
+            <pos>0.765 0.325</pos>
+            <size>0.425 0.09</size>
             <fontPath>${wiifontm}</fontPath>
             <lineSpacing>1</lineSpacing>
-            <horizontalAlignment>left</horizontalAlignment>
-            <verticalAlignment>top</verticalAlignment>
+            <letterCase>capitalize</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
             <color>${textColor}</color>
             <zIndex>9</zIndex>
         </text>
-        <text name="devlbl">
+        <text name="source2">
+            <text>${systemName}</text>
+            <fontSize>${sourcefont}</fontSize>
+            <rotation>-90</rotation>
+            <pos>-0.19 0.325</pos>
+            <size>0.425 0.09</size>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <letterCase>capitalize</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}</color>
+            <zIndex>9</zIndex>
+        </text>
+        
+        <!--<text name="devlbl">
             <text>Developer:</text>
             <fontSize>${gameimage}</fontSize>
             <pos>0.05 0.765</pos>

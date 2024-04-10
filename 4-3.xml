@@ -65,31 +65,12 @@
 
     <view name="gamelist">
         <text name="source">
-        <fontSize>${sourcefont}</fontSize>
-        <rotation>90</rotation>
         <pos>0.705 0.325</pos>
         <size>0.55 0.09</size>
-        <fontPath>${wiifontm}</fontPath>
-        <lineSpacing>1</lineSpacing>
-        <letterCase>capitalize</letterCase>
-        <horizontalAlignment>center</horizontalAlignment>
-        <verticalAlignment>center</verticalAlignment>
-        <color>${textColor}</color>
-        <zIndex>9</zIndex>
     </text>
         <text name="source2">
-            <text>${systemName}</text>
-            <fontSize>${sourcefont}</fontSize>
-            <rotation>-90</rotation>
             <pos>-0.25 0.325</pos>
             <size>0.55 0.09</size>
-            <fontPath>${wiifontm}</fontPath>
-            <lineSpacing>1</lineSpacing>
-            <letterCase>capitalize</letterCase>
-            <horizontalAlignment>center</horizontalAlignment>
-            <verticalAlignment>center</verticalAlignment>
-            <color>${textColor}</color>
-            <zIndex>9</zIndex>
         </text>
         <helpsystem name="help">
             <fontSize>0.03</fontSize>

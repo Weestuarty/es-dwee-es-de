@@ -253,7 +253,7 @@
             <origin>0.5 0.5</origin>
             <fontPath>${wiifontm}</fontPath>
             <lineSpacing>1</lineSpacing>
-            <letterCase>capitalize</letterCase>
+            <letterCase>uppercase</letterCase>
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <color>${textColor}</color>

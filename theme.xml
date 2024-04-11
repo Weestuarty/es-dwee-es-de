@@ -161,7 +161,7 @@
             <zIndex>3</zIndex>
         </image>
         <image name="mrcirclefill">
-            <pos>0.958 0.75</pos>
+            <pos>0.96 0.75</pos>
             <size>0.1 0.17777</size>
             <origin>1 0</origin>
             <path>./assets/images/wiicirclefill.svg</path>

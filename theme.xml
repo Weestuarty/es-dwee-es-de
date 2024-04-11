@@ -161,7 +161,7 @@
             <zIndex>3</zIndex>
         </image>
         <image name="mrcirclefill">
-            <pos>0.944 0.75</pos>
+            <pos>0.958 0.75</pos>
             <size>0.1 0.17777</size>
             <origin>1 0</origin>
             <path>./assets/images/wiicirclefill.svg</path>
@@ -169,7 +169,7 @@
             <zIndex>2</zIndex>
         </image>
         <image name="mrcircle">
-            <pos>0.944 0.75</pos>
+            <pos>0.962 0.75</pos>
             <size>0.1 0.17777</size>
             <origin>1 0</origin>
             <path>./assets/images/wiicircle.svg</path>
@@ -177,7 +177,7 @@
             <zIndex>4</zIndex>
         </image> 
         <image name="mrcircle1">
-            <pos>0.94475 0.751</pos>
+            <pos>0.96275 0.751</pos>
             <size>0.1 0.17777</size>
             <origin>1 0</origin>
             <path>./assets/images/wiicircle.svg</path>
@@ -203,7 +203,7 @@
         <text name="gamecount">
             <systemdata>gamecountGamesNoText</systemdata>
             <fontSize>${gamecount}</fontSize>
-            <pos>0.895 0.775</pos>
+            <pos>0.913 0.775</pos>
             <origin>0.5 0</origin>
             <size>0.08 0.075</size>
             <fontPath>${wiifontb}</fontPath>
@@ -214,7 +214,7 @@
         <text name="gamecountlbl">
             <text>Games</text>
             <fontSize>${gamecount}</fontSize>
-            <pos>0.8935 0.825</pos>
+            <pos>0.9115 0.825</pos>
             <origin>0.5 0</origin>
             <size>0.08 0.075</size>
             <fontPath>${wiifontb}</fontPath>
@@ -225,7 +225,7 @@
         <text name="gamecount1">
             <systemdata>gamecountGamesNoText</systemdata>
             <fontSize>${gamecount}</fontSize>
-            <pos>0.896 0.776</pos>
+            <pos>0.914 0.776</pos>
             <origin>0.5 0</origin>
             <size>0.08 0.075</size>
             <fontPath>${wiifontb}</fontPath>
@@ -236,7 +236,7 @@
         <text name="gamecountlbl1">
             <text>Games</text>
             <fontSize>${gamecount}</fontSize>
-            <pos>0.89475 0.826</pos>
+            <pos>0.91275 0.826</pos>
             <origin>0.5 0</origin>
             <size>0.08 0.075</size>
             <fontPath>${wiifontb}</fontPath>
@@ -249,10 +249,10 @@
             <fontSize>${gametitle}</fontSize>
             <rotation>0</rotation>
             <pos>0.5 0.9</pos>
-            <size>0.7 0.09</size>
+            <size>0.7 40.09</size>
             <origin>0.5 0.5</origin>
             <fontPath>${wiifontm}</fontPath>
-            <lineSpacing>1</lineSpacing>
+            <lineSpacing>0.856</lineSpacing>
             <letterCase>uppercase</letterCase>
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>

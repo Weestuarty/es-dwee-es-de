@@ -17,15 +17,15 @@
             <size>0.1 0.216</size>
         </image>
         <image name="mrcircle">
-            <pos>0.944 0.74</pos>
+            <pos>0.9615 0.74</pos>
             <size>0.1 0.216</size>
         </image> 
         <image name="mrcirclefill">
-            <pos>0.944 0.74</pos>
+            <pos>0.9615 0.74</pos>
             <size>0.1 0.216</size>
         </image> 
         <image name="mrcircle1">
-            <pos>0.94475 0.741</pos>
+            <pos>0.96225 0.741</pos>
             <size>0.1 0.216</size>
         </image>
         <image name="es">
@@ -37,19 +37,19 @@
             <maxSize>0.125 0.18</maxSize>
         </image>
         <text name="gamecount">
-            <pos>0.895 0.78</pos>
+            <pos>0.9125 0.78</pos>
             <size>0.08 0.075</size>
         </text>
         <text name="gamecountlbl">
-            <pos>0.895 0.84</pos>
+            <pos>0.9125 0.84</pos>
             <size>0.12 0.075</size>
         </text>
         <text name="gamecount1">
-            <pos>0.896 0.781</pos>
+            <pos>0.9135 0.781</pos>
             <size>0.08 0.075</size>
         </text>
         <text name="gamecountlbl1">
-            <pos>0.896 0.841</pos>
+            <pos>0.9135 0.841</pos>
             <size>0.12 0.075</size>
         </text>
     </view>

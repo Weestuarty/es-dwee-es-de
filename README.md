@@ -16,6 +16,11 @@ Inspired by the UI of the most versatile game consoles ever.
 ![systems](sys2.png)
 ![games](game2.png)
 
+- Famiwii
+![systems](sys3.png)
+![games](game3.png)
+
+
 
 2 font sizes:
 

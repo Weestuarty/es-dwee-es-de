@@ -5,8 +5,17 @@ Inspired by the UI of the most versatile game consoles ever.
 3 color schemes:
 
 - Blue
+![systems](sys.png)
+![games](game.png)
+
 - Gold
+![systems](sys1.png)
+![games](game1.png)
+
 - Rose
+![systems](sys2.png)
+![games](game2.png)
+
 
 2 font sizes:
 

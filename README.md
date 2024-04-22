@@ -2,7 +2,7 @@
 
 Inspired by the UI of the most versatile game consoles ever.
 
-3 color schemes:
+4 color schemes:
 
 - Blue
 ![systems](sys.png)
@@ -35,7 +35,7 @@ Inspired by the UI of the most versatile game consoles ever.
 - 21:9
 - 19.5:9
 
-3 transitions:
+2 transitions:
 
 - Instant
 - Slide

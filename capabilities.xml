@@ -49,4 +49,7 @@
     <colorScheme name="weeeilidh">
         <label>Rose</label>
     </colorScheme>
+    <colorScheme name="famiwii">
+        <label>Famiwii</label>
+    </colorScheme>
 </themeCapabilities>

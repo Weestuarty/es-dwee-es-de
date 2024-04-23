@@ -49,6 +49,17 @@
             <baseColor>1B040b</baseColor>
         </variables>
     </colorScheme>
+    <colorScheme name="famiwii">
+        <variables>
+            <glowColor>a57a4f</glowColor>
+            <backColor>821122</backColor>
+            <gridColor>561420</gridColor>
+            <textColor>a57a4f</textColor>
+            <badgeColor>a57a4f</badgeColor>
+            <textselectColor>561420</textselectColor>
+            <baseColor>662b32</baseColor>
+        </variables>
+    </colorScheme>
 
     <fontSize name="medium">
     <variables>
@@ -259,6 +270,21 @@
             <color>${textColor}</color>
             <zIndex>9</zIndex>
         </text>
+        <text name="sourceback">
+            <text>${systemName}</text>
+            <fontSize>${gametitle}</fontSize>
+            <rotation>0</rotation>
+            <pos>0.5015 0.9015</pos>
+            <size>0.7 40.09</size>
+            <origin>0.5 0.5</origin>
+            <fontPath>${wiifontm}</fontPath>
+            <lineSpacing>0.856</lineSpacing>
+            <letterCase>uppercase</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${backColor}</color>
+            <zIndex>8</zIndex>
+        </text>
         <text name="sourceyear">
             <text>${systemReleaseYear}</text>
             <fontSize>0.1</fontSize>
@@ -463,7 +489,6 @@
             <origin>0.5 0.5</origin>
             <maxSize>0.2 0.2</maxSize>
             <imageType>physicalmedia</imageType>
-            <color>${baseColor}</color>
             <zIndex>4</zIndex>
         </image>
         <!--<text name="players">
@@ -571,18 +596,20 @@
         </image>
         <image name="marquee">
             <pos>0.21 0.86</pos>
-            <maxSize>0.39 0.19</maxSize>
+            <maxSize>0.39 0.18</maxSize>
             <origin>0.5 0.5</origin>
             <imageType>marquee</imageType>
             <interpolation>linear</interpolation>
             <zIndex>7</zIndex>
         </image>
         <image name="marquee1">
-            <pos>0.211 0.861</pos>
-            <maxSize>0.39 0.19</maxSize>
+            <pos>0.2115 0.8615</pos>
+            <maxSize>0.39 0.18</maxSize>
             <origin>0.5 0.5</origin>
             <imageType>marquee</imageType>
-            <color>${textColor}</color>
+            <saturation>0</saturation>
+            <brightness>1.5</brightness>
+            <color>000000</color>
             <zIndex>6</zIndex>
         </image>
         <text name="source">

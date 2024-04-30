@@ -55,4 +55,7 @@
     <colorScheme name="retro">
         <label>Retro</label>
     </colorScheme>
+    <colorScheme name="shorty">
+        <label>RetroDeck</label>
+    </colorScheme>
 </themeCapabilities>

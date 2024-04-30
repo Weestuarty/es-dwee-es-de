@@ -2,7 +2,7 @@
 
 Inspired by the UI of the most versatile game consoles ever.
 
-4 color schemes:
+5 color schemes:
 
 - Blue
 ![systems](sys.png)
@@ -20,7 +20,7 @@ Inspired by the UI of the most versatile game consoles ever.
 ![systems](sys3.png)
 ![games](game3.png)
 
-
+- Retro
 
 2 font sizes:
 

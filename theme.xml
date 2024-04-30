@@ -19,6 +19,7 @@
     <colorScheme name="weeblue">
         <variables>
             <glowColor>34BEED</glowColor>
+            <glowColorEnd>34BEED</glowColorEnd>
             <backColor>108FBA</backColor>
             <gridColor>CCCCCC</gridColor>
             <textColor>000000</textColor>
@@ -30,8 +31,10 @@
     <colorScheme name="weestuarty">
         <variables>
             <glowColor>d4af37</glowColor>
+            <glowColorEnd>d4af37</glowColorEnd>
             <backColor>A67c00</backColor>
             <gridColor>444444</gridColor>
+            <gridColorEnd>444444</gridColorEnd>
             <textColor>d4af37</textColor>
             <badgeColor>a67c00</badgeColor>
             <textselectColor>000000</textselectColor>
@@ -41,8 +44,10 @@
     <colorScheme name="weeeilidh">
         <variables>
             <glowColor>BE013C</glowColor>
+            <glowColorEnd>BE013c</glowColorEnd>
             <backColor>950217</backColor>
             <gridColor>450c1c</gridColor>
+            <gridColorEnd>450c1c</gridColorEnd>
             <textColor>BE013C</textColor>
             <badgeColor>be013c</badgeColor>
             <textselectColor>000000</textselectColor>
@@ -52,8 +57,10 @@
     <colorScheme name="famiwii">
         <variables>
             <glowColor>a57a4f</glowColor>
+            <glowColorEnd>a57a4f</glowColorEnd>
             <backColor>821122</backColor>
             <gridColor>561420</gridColor>
+            <gridColorEnd>561420</gridColorEnd>
             <textColor>a57a4f</textColor>
             <badgeColor>a57a4f</badgeColor>
             <textselectColor>561420</textselectColor>
@@ -63,12 +70,27 @@
     <colorScheme name="retro">
         <variables>
             <glowColor>5E3427</glowColor>
+            <glowColorEnd>5e3427</glowColorEnd>
             <backColor>ca9852</backColor>
             <gridColor>d3c09f</gridColor>
+            <gridColorEnd>d3c09f</gridColorEnd>
             <textColor>5E3427</textColor>
             <badgeColor>d3c09f</badgeColor>
             <textselectColor>d3c09f</textselectColor>
             <baseColor>D3C09F</baseColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="shorty">
+        <variables>
+            <glowColor>1b9fff</glowColor>
+            <glowColorEnd>C758e6</glowColorEnd>
+            <backColor>1b9FFF</backColor>
+            <gridColor>c758b6</gridColor>
+            <gridColorEnd>1b9FFF</gridColorEnd>
+            <textColor>c758e6</textColor>
+            <badgeColor>1b9FFF</badgeColor>
+            <textselectColor>000000</textselectColor>
+            <baseColor>111111</baseColor>
         </variables>
     </colorScheme>
 
@@ -120,8 +142,10 @@
             <staticImage>./assets/webp/${system.theme}.webp</staticImage>
             <selectorImage>./assets/images/wiigrid.svg</selectorImage>
             <selectorColor>${glowColor}</selectorColor>
+            <selectorColorEnd>${glowColorEnd}</selectorColorEnd>
             <backgroundImage>./assets/images/wiigridback.svg</backgroundImage>
             <backgroundColor>${gridColor}</backgroundColor>
+            <backgroundColorEnd>${gridColorEnd}</backgroundColorEnd>
             <backgroundRelativeScale>0.975</backgroundRelativeScale>
             <selectorLayer>bottom</selectorLayer>
             <selectorRelativeScale>1</selectorRelativeScale>
@@ -536,7 +560,7 @@
             <origin>0.5 0</origin>
             <maxSize>0.05 0.05</maxSize>
             <path>./assets/images/date.svg</path>
-            <color>${baseColor}</color>
+            <color>${textColor}</color>
             <zIndex>9</zIndex>
         </image>
         <datetime name="release">

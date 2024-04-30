@@ -82,8 +82,8 @@
     </colorScheme>
     <colorScheme name="shorty">
         <variables>
-            <glowColor>1b9fff</glowColor>
-            <glowColorEnd>C758e6</glowColorEnd>
+            <glowColor>c758e6</glowColor>
+            <glowColorEnd>1b9fff</glowColorEnd>
             <backColor>1b9FFF</backColor>
             <gridColor>c758b6</gridColor>
             <gridColorEnd>1b9FFF</gridColorEnd>
@@ -141,8 +141,8 @@
             <size>1 0.75</size>
             <staticImage>./assets/webp/${system.theme}.webp</staticImage>
             <selectorImage>./assets/images/wiigrid.svg</selectorImage>
-            <selectorColor>${glowColor}</selectorColor>
-            <selectorColorEnd>${glowColorEnd}</selectorColorEnd>
+            <selectorColor>${glowColorEnd}</selectorColor>
+            <selectorColorEnd>${glowColor}</selectorColorEnd>
             <backgroundImage>./assets/images/wiigridback.svg</backgroundImage>
             <backgroundColor>${gridColor}</backgroundColor>
             <backgroundColorEnd>${gridColorEnd}</backgroundColorEnd>

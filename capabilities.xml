@@ -52,4 +52,7 @@
     <colorScheme name="famiwii">
         <label>Famiwii</label>
     </colorScheme>
+    <colorScheme name="retro">
+        <label>Retro</label>
+    </colorScheme>
 </themeCapabilities>

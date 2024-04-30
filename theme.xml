@@ -60,6 +60,17 @@
             <baseColor>662b32</baseColor>
         </variables>
     </colorScheme>
+    <colorScheme name="retro">
+        <variables>
+            <glowColor>5E3427</glowColor>
+            <backColor>ca9852</backColor>
+            <gridColor>d3c09f</gridColor>
+            <textColor>5E3427</textColor>
+            <badgeColor>5E3427</badgeColor>
+            <textselectColor>d3c09f</textselectColor>
+            <baseColor>D3C09F</baseColor>
+        </variables>
+    </colorScheme>
 
     <fontSize name="medium">
     <variables>

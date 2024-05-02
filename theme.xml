@@ -22,6 +22,7 @@
             <glowColorEnd>34BEED</glowColorEnd>
             <backColor>108FBA</backColor>
             <gridColor>CCCCCC</gridColor>
+            <gridColorEnd>CCCCCC</gridColorEnd>
             <textColor>000000</textColor>
             <badgeColor>cccccc</badgeColor>
             <textselectColor>000000</textselectColor>

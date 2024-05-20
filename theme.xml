@@ -747,6 +747,16 @@
             <fontPath>${wiifontm}</fontPath>
             <zIndex>8</zIndex>
         </carousel>
+        <image name="marq">
+            <pos>0.26175 0.2275</pos>
+            <maxSize>0.5 0.4</maxSize>
+            <origin>0.5 0.5</origin>
+            <imageType>marquee</imageType>
+            <saturation>0</saturation>
+            <brightness>2</brightness>
+            <color>FFFFFF55</color>
+            <zIndex>7</zIndex>
+        </image>
         <image name="menubottomfill">
             <pos>0 0</pos>
             <size>1 1</size>
@@ -796,7 +806,7 @@
             <imageType>screenshot,cover</imageType>
             <opacity>0.75</opacity>
             <saturation>1</saturation>
-            <zIndex>6</zIndex>
+            <zIndex>5</zIndex>
         </video>
         <image name="shade">
             <pos>0.2 0.375</pos>
@@ -808,7 +818,7 @@
             <tileSize>0.1 0.1</tileSize>
             <color>000000</color>
             <colorEnd>00000000</colorEnd>
-            <zIndex>7</zIndex>
+            <zIndex>6</zIndex>
         </image>
         <image name="background">
             <pos>0.5 0.375</pos>

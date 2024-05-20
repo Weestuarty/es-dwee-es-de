@@ -53,7 +53,7 @@
             <size>0.12 0.075</size>
         </text>
     </view>
-
+<variant name="text">
     <view name="gamelist">
         <badges name="badges">
             <pos>0.76 0.67</pos>
@@ -70,5 +70,5 @@
                 <selectorHorizontalOffset>-0.006</selectorHorizontalOffset>
             </textlist>
     </view>
-        
+      </variant>  
 </theme>

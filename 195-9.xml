@@ -53,7 +53,7 @@
             <size>0.12 0.075</size>
         </text>
     </view>
-
+<variant name="text">
     <view name="gamelist">
         <video name="gameboxart">
             <videoCornerRadius>0.04</videoCornerRadius>
@@ -64,5 +64,5 @@
             <size>0.39 0.115</size>
             </badges>
     </view>
-        
+        </variant>
 </theme>

@@ -58,4 +58,13 @@
     <colorScheme name="shorty">
         <label>RetroDeck</label>
     </colorScheme>
+
+    <variant name="text">
+        <label>textlist</label>
+        <selectable>true</selectable>
+     </variant>
+     <variant name="full">
+        <label>Fullscreen</label>
+        <selectable>true</selectable>
+     </variant>
 </themeCapabilities>

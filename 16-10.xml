@@ -37,7 +37,7 @@
             <size>0.1 0.16</size>
         </image>
     </view>
-
+<variant name="text">
     <view name="gamelist">
         <text name="source">
             <pos>0.74 0.325</pos>
@@ -56,5 +56,5 @@
             </badges>
             
     </view>
-        
+        </variant>
 </theme>
